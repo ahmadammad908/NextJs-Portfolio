@@ -5,6 +5,7 @@ import Image from 'next/image';
 import CheckIcon from "@/assets/icons/check-circle.svg"
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg"
 import grainImage from "@/assets/images/grain.jpg"
+
 const portfolioProjects = [
   {
     company: "Acme Corp",
@@ -45,7 +46,7 @@ const portfolioProjects = [
 ];
 
 export const ProjectsSection = () => {
-  return <section className="pb-16 lg:py-24" id="project" data-scroll-section>
+  return <section className="pb-16 lg:py-24" id="project" >
     <div className="container">
       <div className="flex justify-center">
         <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400  text-center text-transparent bg-clip-text">Real -world Results</p>
@@ -74,8 +75,8 @@ export const ProjectsSection = () => {
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {  
-                      project.results.map((result) => (
-                        <li className="flex gap-2 text-sm md:text-base text-white/50">
+                      project.results.map((result, key) => (
+                        <li className="flex gap-2 text-sm md:text-base text-white/50" key={key}>
                           <CheckIcon className="size-5 md:size-6 " />
                           <span>{result.title}</span>
                         </li>

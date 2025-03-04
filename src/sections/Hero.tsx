@@ -6,7 +6,7 @@ import StartIcon from "@/assets/icons/star.svg"
 import SparkleIcon from "@/assets/icons/sparkle.svg"
 import { HeroOrbit } from '@/components/HeroOrbit';
 export const HeroSection = () => {
-  return <div className='py-32 md:py-48 relative z-0 overflow-x-clip' id='hero' data-scroll-section>
+  return <div className='py-32 md:py-48 relative z-0 overflow-x-clip' id='hero' >
     <div className='absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
 
 
@@ -88,12 +88,12 @@ export const HeroSection = () => {
 
       <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
         <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
-          <span className='font-semibold'>Explore My Work</span>
+          <span className='font-semibold'>&rsquo;Explore My Work</span>
           <ArrowDown className="size-4" />
         </button>
         <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
           <span>👋</span>
-          <span className='font-semibold'>Let's Connect</span>
+          <span className='font-semibold'>&rsquo;Let's Connect</span>
         </button>
       </div>
     </div>
