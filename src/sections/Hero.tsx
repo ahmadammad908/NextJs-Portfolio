@@ -6,7 +6,7 @@ import StartIcon from "@/assets/icons/star.svg"
 import SparkleIcon from "@/assets/icons/sparkle.svg"
 import { HeroOrbit } from '@/components/HeroOrbit';
 export const HeroSection = () => {
-  return <div className='py-32 md:py-48 relative z-0 overflow-x-clip' id='hero' >
+  return <div className='py-32 md:py-48 relative z-10 overflow-x-clip ' id='hero'  >
     <div className='absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]'>
 
 
@@ -69,8 +69,8 @@ export const HeroSection = () => {
 
 
 
-    <div className="container ">
-      <div className='flex flex-col items-center'>
+    <div className="container" >
+      <div className='flex flex-col items-center '>
         <Image src={memojiImage} className='size-[100px]' alt="Person peeking from behind laptop" />
         <div className='bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg'>
           <div className='bg-green-500 size-2.5 rounded-full
@@ -87,14 +87,18 @@ export const HeroSection = () => {
       </div>
 
       <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
-        <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
-          <span className='font-semibold'>&rsquo;Explore My Work</span>
-          <ArrowDown className="size-4" />
+        <a href='#project'>
+        <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl pointer-events-auto z-10'>
+          <span className='font-semibold z-10'>Explore My Work</span>
+          <ArrowDown className="size-4 z-10" />
         </button>
-        <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
-          <span>👋</span>
-          <span className='font-semibold'>&rsquo;Let's Connect</span>
+        </a>
+       <a href='https://www.linkedin.com/in/ahmad-evs-a86938239/'>
+       <button className='inline-flex  z-10 items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl '>
+          <span className='z-10'>👋</span>
+          <span className='font-semibold z-10'>Let's Connect</span>
         </button>
+       </a>
       </div>
     </div>
   </div>;
