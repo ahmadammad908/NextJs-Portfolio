@@ -11,7 +11,7 @@ const calistoga = Calistoga({
   weight:["400"],
 });
 export const metadata: Metadata = {
-  title: "ahmadEvs - Software Engineer- Full Stack",
+  title: "AhmadEvs - Software Engineer- Full Stack",
   description: "Full-stack Software Engineer skilled in the MERN stack, DevOps, and serverless technologies. Passionate about accessibility and actively contributing to open-source startups.",
 };
 
