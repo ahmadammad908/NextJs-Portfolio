@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description: "Full-stack Software Engineer skilled in the MERN stack, DevOps, and serverless technologies. Passionate about accessibility and actively contributing to open-source startups.",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -26,3 +27,4 @@ export default function RootLayout({
     </html>
   );
 }
+
