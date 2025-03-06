@@ -11,8 +11,8 @@ const calistoga = Calistoga({
   weight:["400"],
 });
 export const metadata: Metadata = {
-  title: "ahmadevs",
-  description: "Created with the help of Frontend Tribe",
+  title: "ahmadEvs - Software Engineer- Full Stack",
+  description: "Full-stack Software Engineer skilled in the MERN stack, DevOps, and serverless technologies. Passionate about accessibility and actively contributing to open-source startups.",
 };
 
 export default function RootLayout({
