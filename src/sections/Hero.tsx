@@ -93,7 +93,7 @@ export const HeroSection = () => {
           <ArrowDown className="size-4 z-10" />
         </button>
         </a>
-       <a href='https://www.linkedin.com/in/ahmad-evs-a86938239/'>
+       <a href='https://www.linkedin.com/in/ahmad-ammad-545659355/'>
        <button className='inline-flex  z-10 items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl '>
           <span className='z-10'>👋</span>
           <span className='font-semibold z-10'>Let's Connect</span>

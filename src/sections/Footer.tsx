@@ -11,7 +11,7 @@ const footerlinks = [
   },
   {
     title:'Linkedin',
-    href:'https://www.linkedin.com/in/ahmad-evs-a86938239/',
+    href:'https://www.linkedin.com/in/ahmad-ammad-545659355/',
   },
 ]
 export const Footer = () => {
